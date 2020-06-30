@@ -1,0 +1,255 @@
+html{
+	width: 100%;
+}
+
+* {
+	box-sizing: border-box;
+}
+p,h1,h2,h3,h4,h4,h6,div,span {
+	font-family:PingFangSC-Regular,sans-serif,Microsoft JhengHei;	
+}
+
+p {
+	font-size: 16px;
+}
+.banner {
+	margin-top: 76px;
+}
+.banner .container-fluid {
+	padding:0!important;
+}
+.navbar-brand img {
+	height: 50px;
+}
+
+@media (min-width: 768px) {
+/*nav選單*/
+	.navbar{
+	padding-left:50px!important;
+	padding-right:50px!important; 
+}
+
+.main_pic{
+	background-image: url(../img/technology-computer-lines-board-50711.png);
+	width:100%;
+	height:100%;
+	align-content: center;
+	margin-top: 100px;
+}
+
+.main_arc_1{
+	font-size: 40px;
+	color: #ffffff;
+}
+
+.main_arc_2{
+	font-size: 13px;
+	color: #ffffff;
+}
+
+.main_arc_3{
+	font-size: 20px;
+	border-style: solid;
+	border-color: #ffffff;
+	color: #ffffff;
+	width: 16%;
+}
+.sub_pic{
+	margin-top: 50px;
+}
+.sub_pic_left_pic{
+	width: 100%;
+}
+
+.sub_title{
+	margin-bottom: 20px !important; 
+}
+
+.sub_div{
+	display: flex;
+	justify-content: space-between;
+}
+
+.sub_detail{
+	font-size: 20px;
+	font-weight: lighter !important;
+	color: black !important;
+	border-color: black !important;
+}
+
+}
+.about {
+	padding:100px 0;
+	background:linear-gradient(#ffffff,#F0E5DE); 
+}
+
+.about img {
+	box-shadow:2px 2px 4px gray;
+}
+.title {
+	font-size:20px;
+	font-weight: bold;
+}
+
+.title_line {
+	border-color:#ffffff;
+}
+
+.story {
+	padding: 50px 0;
+	font-size: 18px;
+}
+
+.story span {
+	font-style: italic;
+	font-size: 20px;
+	display: block;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+.title_line {
+	margin-bottom: 50px;
+}
+
+.product {
+	background-color: #F0E5DE;
+	padding-bottom:70px;
+}
+
+.sub_pic_2{
+	background-color: black;
+	align-content: center !important;
+	
+}
+.detail_3{
+	color: white !important;
+}
+.detail_2{
+	font-size: 10px !important;
+	color: white !important;
+}
+.main_arc_33{
+	border-color: white !important;
+	color: white !important;
+	width: 16%;
+	border-style: solid !important;
+}
+.sub_pic_3{
+	background-color: #660000;
+	align-content: center !important;
+	margin-top: 30px !important;
+	padding-top: 20px !important;
+}
+
+.sub_pic_2_text{
+	font-size: 30px;
+}
+.sub_pic_2_text_detail{
+	font-size: 10px !important;
+	font-weight: 3px !important;
+}
+.detail_1{
+	margin-top: 30px !important;
+}
+.pic_tmd_ryzen{
+	width: 30%;
+	height: 20%;
+}
+
+.more_1{
+	margin-top: 50px !important;
+	border-color: white !important;
+	border-style: solid !important;
+	height: 30% !important;
+}
+
+.product .card {
+	background-color: #ffffff;
+	padding: 20px 10px;
+	margin-bottom: 10px;
+}
+.product img {
+	width:100%;
+	margin-bottom:20px;
+}
+
+.product img:hover {
+	opacity: 0.8;
+}
+.product_name {
+	padding: 10px;
+}
+.contact {
+	height:750px;
+	padding-top: 100px;
+	background-image: url(../img/contact_bg.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: top center;
+}
+
+.contact .title {
+	color:#ffffff;
+}
+
+.contact .form {
+	max-width: 600px;
+	margin:0 auto;
+	padding: 0 30px;
+	color:#ffffff;
+}
+
+.form input {
+	height: 40px;
+	width: 100%;
+	background-color: #ffffff;
+	border-radius: 5px;
+	border:0px;
+	padding: 12px;
+	resize: vertical;
+	color: #000000;
+	margin:7.5px 0;
+}
+
+.form textarea {
+	height: 200px;
+	width: 100%;
+	background-color: #ffffff;
+	border-radius: 5px;
+	border:0px;
+	padding: 12px;
+	resize: vertical;
+	color: #000000;
+	margin:7.5px 0;
+}
+
+input[type=submit] {
+  background-color: #000000;
+  color: white;
+  cursor: pointer;
+  width: 100px!important;
+  height: 48px;
+}
+
+input[type=submit]:hover {
+  background-color: #8ABCB8;
+}
+
+footer {
+	background-color: #000000;
+	padding:20px 0;
+}
+
+footer p {
+	line-height: 39px;
+}
+.footer_pic{
+	width: 10% !important;
+	height: 100% !important;
+}
+
+.footer_ppp{
+	justify-items: center !important;
+	color: white !important;
+}
