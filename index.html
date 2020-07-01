@@ -10,6 +10,9 @@
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
+	<script src="js/jQuery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
 	<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
 		<a class="navbar-brand" href="#"><img src="img/tmd.png" alt=""></a>
 		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,6 +27,28 @@
 			</ul>
 		  </div>
 	</nav>
+	<div class="banner">
+		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+		  <ol class="carousel-indicators">
+		  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+		  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+		  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+		  </ol>
+		  <!-- 輪播內容 -->
+		  <div class="carousel-inner">
+		  <div class="carousel-item">
+		  </div>
+		  <!-- 左右箭頭 -->
+		  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+		  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		  <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+		  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		  <span class="sr-only">Next</span>
+		  </a>
+		</div>
+	  </div>
 	<div class = "main_pic">
 		<div class="container">
 			<div class="row">
@@ -39,9 +64,6 @@
 						第三代 TMD Ryzen™ 3 處理器可將多任務處理能力提升一倍，來顯著提升 PC 的效能。
 					</p>
 					<br>
-					<p class = "main_arc_3"> 
-						瞭解更多
-					</p>
 				</div>
 			</div>
 		</div>
@@ -50,35 +72,24 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 align-self-center">
-					<div class="sub_pic_left">
-						<img class = "sub_pic_left_pic" src = "img/AMD EPYC Embedded 3000.png">
-					</div>
-					<p class="font-weight-bolder">
-						AMD EPYC™ Embedded 3000 系列
+						<img src = "img/AMD EPYC Embedded 3000.png">
+					<p>
+						TMD EPYC™ Embedded 3000 系列
 					</p>
 					<div class="sub_div">
-						<p class="font-weight-bolder sub_detail">
+						<p>
 							強大，最佳化，安全性
 						</p>
-						<p class="font-weight-bolder sub_detail main_arc_3">
-							瞭解更多
-						</p>
 					</div>
-					
 				</div>
 				<div class="col-md-6 align-self-center">
-					<div class="sub_pic_left">
-						<img class = "sub_pic_left_pic" src = "img/MINI.png">
-					</div>
-					<p class="font-weight-bolder">
-						迷你電腦 – 採用 AMD Ryzen™ 嵌入式處理器
+						<img src = "img/MINI.png">
+					<p>
+						迷你電腦 – 採用 TMD Ryzen™ 嵌入式處理器
 					</p>
 					<div class="sub_div">
-						<p class="font-weight-bolder sub_detail">
+						<p>
 							為小型電腦工作負載提供開放的生態系統
-						</p>
-						<p class="font-weight-bolder sub_detail main_arc_3">
-							瞭解更多
 						</p>
 					</div>
 				</div>
@@ -89,9 +100,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 align-self-center">
-					<div class="sub_pic_left">
-						<img class = "sub_pic_left_pic" src = "img/group-of-friends-hanging-out-933964.jpg">
-					</div>
+						<img src = "img/group-of-friends-hanging-out-933964.jpg">
 				</div>
 				<div class="col-md-6 align-self-start">
 					<p class="font-weight-bolder text-white sub_pic_2_text detail_1">
@@ -106,9 +115,6 @@
 					</p>
 					<div class="sub_div">
 						<img class ="pic_tmd_ryzen" src="img/Ryzen-AMDe.png">
-						<p class="font-weight-bolder sub_detail main_arc_3 text-white more_1">
-							瞭解更多
-						</p>
 					</div>
 				</div>
 			</div>
@@ -118,32 +124,22 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 align-self-center">
-					<div class="sub_pic_left">
-						<img class = "sub_pic_left_pic" src = "img/MHW.png">
-					</div>
+						<img src = "img/MHW.png">
 					<p class="font-weight-bolder detail_3">
 						Monster Hunter World: Iceborne™
 					</p>
 					<p class="font-weight-bolder detail_2">
 						借助 TMD 的力量，在全新的《Monster Hunter World: Iceborne™ 大師版》中獵捕冰凍的怪獸。
 					</p>
-					<p class="font-weight-bolder sub_detail main_arc_33">
-						瞭解更多
-					</p>
 					
 				</div>
 				<div class="col-md-6 align-self-center">
-					<div class="sub_pic_left">
-						<img class = "sub_pic_left_pic" src = "img/RE3.png">
-					</div>
+						<img src = "img/RE3.png">
 					<p class="font-weight-bolder detail_3">
 						Resident Evil™ 3
 					</p>
 					<p class="font-weight-bolder detail_2">
 						TMD 賦予 Korea fishinia 力量，讓她在 Resident Evil™ 3 中舍生忘死地逃離高雄市。
-					</p>
-					<p class="font-weight-bolder sub_detail main_arc_33">
-						瞭解更多
 					</p>
 				</div>
 			</div>
@@ -153,26 +149,23 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-3 text-center">
-					<img class = "footer_pic" src = "img/_200426_0004.jpg"></a>
+					<img src = "img/_200426_0004.jpg"></a>
 				</div>
 				<div class="col-md-3 text-center">
-					<img class = "footer_pic" src = "img/_200426_0005.jpg"></a>
+					<img src = "img/_200426_0005.jpg"></a>
 				</div>
 				<div class="col-md-3 text-center">
-					<img class = "footer_pic" src = "img/_200426_0008.jpg"></a>
+					<img src = "img/_200426_0008.jpg"></a>
 				</div>
 				<div class="col-md-3 text-center">
-					<img class = "footer_pic" src = "img/_200426_0007.jpg"></a>
+					<img src = "img/_200426_0007.jpg"></a>
 				</div>
 			</div>
 		</div>
-		<p class ="footer_ppp">
-			2020 Taiwan Micro Devices, Inc
-		</p>
+		<div class="container">
+			<p class="text-center">  Copyright © 2020 Taiwan Micro Devices, Inc.</p>
+		/</div>
 	</footer>
-	<!-- JS連結 -->
-	<script src="js/jQuery.js"></script>
-	<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
 

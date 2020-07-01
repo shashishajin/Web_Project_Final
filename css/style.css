@@ -1,14 +1,12 @@
 html{
 	width: 100%;
 }
-
 * {
 	box-sizing: border-box;
 }
 p,h1,h2,h3,h4,h4,h6,div,span {
 	font-family:PingFangSC-Regular,sans-serif,Microsoft JhengHei;	
 }
-
 p {
 	font-size: 16px;
 }
@@ -31,10 +29,7 @@ p {
 
 .main_pic{
 	background-image: url(../img/technology-computer-lines-board-50711.png);
-	width:100%;
-	height:100%;
 	align-content: center;
-	margin-top: 100px;
 }
 
 .main_arc_1{
@@ -58,7 +53,8 @@ p {
 	margin-top: 50px;
 }
 .sub_pic_left_pic{
-	width: 100%;
+	width: 100% !important;
+	
 }
 
 .sub_title{
@@ -67,7 +63,6 @@ p {
 
 .sub_div{
 	display: flex;
-	justify-content: space-between;
 }
 
 .sub_detail{
@@ -238,18 +233,57 @@ input[type=submit]:hover {
 
 footer {
 	background-color: #000000;
-	padding:20px 0;
+	padding:20px;
 }
 
 footer p {
-	line-height: 39px;
-}
-.footer_pic{
-	width: 10% !important;
-	height: 100% !important;
-}
-
-.footer_ppp{
-	justify-items: center !important;
+	font-size: 25px;
+	padding: 25px;
 	color: white !important;
+}
+.footer img{
+	
+	padding :10px;
+}
+@media  only screen and (max-width: 990px)
+{
+	img
+	{
+		max-width: 100%;
+		max-height: 100%;
+	}
+}
+@media  only screen and (min-width: 768px)
+{
+	img
+	{
+		max-width: 100%;
+		max-height: 100%;
+	}
+	.font-weight-bolder
+	{
+		font-size: 15px;
+		color:#fff;
+	}
+	.main_arc_2
+	{
+		font-size: 15px;
+		color:#fff;
+	}
+	
+}
+@media only screen and (max-width: 320px)
+{
+	.main_pic
+	{
+		background-image: url(../img/technology-computer-lines-board-50711.png);
+	}
+	.font-weight-bolder
+	{
+		color : #fff;
+	}
+	.main_arc_2
+	{
+		color: #fff;
+	}
 }
