@@ -1,0 +1,206 @@
+body
+{
+    padding-top: 50px;
+    background-color: #000000 !important;
+}
+.banner {
+	margin-top: 76px;
+}
+.banner .container-fluid {
+	padding:0!important;
+}
+.banner {
+	margin-top: 76px;
+}
+.banner .container-fluid {
+	padding:0!important;
+}
+.navbar-brand img {
+	height: 50px;
+}
+.section1
+{
+    background-color: #000000;
+}
+.section1 img
+{
+    margin  :5%;
+    width: 100%;
+}
+.section2
+{
+    background-color: #2e0e0e;
+}
+.section2 img
+{
+    justify-content: center;
+    width: 100%;
+}
+.section2 h4
+{
+    color: #fff;
+}
+.section2 p
+{
+    color: #fff;
+}
+.section3 h1
+{
+    color:#fff;
+}
+.gametrailer
+{
+    width:1903px;
+    height:600px;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+.main_des{
+    justify-items: center;
+    text-align: left;
+    align-content: center;
+    line-height: 100px;
+    padding-top: 200px;
+
+    color: white;
+    z-index: 100;
+ }
+ .main_line_1{
+    font-size: 72px;
+    font-family: Microsoft JhengHei;
+}
+.main_line_2{
+    font-size: 20px;
+    font-family: Microsoft JhengHei;
+}
+.main_line_3{
+    font-size: 35px;
+    font-family: Microsoft JhengHei;
+    border: solid 1px #ffffff;
+}
+html{
+    overflow-x: hidden;
+    background-color: black;
+}
+.bd2{
+    width:504px;
+    height:75px;
+    font-size: 20px;
+    color: white;
+    position: relative;
+    left: 45%;
+    font-family: Microsoft JhengHei;
+}
+@media (min-width:320px)
+{
+    .main_des{
+    position: absolute;
+    left:100px;
+    top: -250px;
+
+    }
+    .main_line_1{
+        font-size: 10px;
+        font-family: Microsoft JhengHei;
+    }
+    .main_line_2{
+        font-size: 5px;
+        font-family: Microsoft JhengHei;
+    }
+    .main_line_3{
+        font-size: 5px;
+        font-family: Microsoft JhengHei;
+        border: solid 1px #ffffff;
+    }
+}
+@media (min-width:768px)
+{
+    .main_des{
+    position: absolute;
+    left:300px;
+    top: -90px;
+    }
+    .main_line_1{
+        font-size: 36px;
+        font-family: Microsoft JhengHei;
+    }
+    .main_line_2{
+        font-size: 12px;
+        font-family: Microsoft JhengHei;
+    }
+    .main_line_3{
+        font-size: px;
+        font-family: Microsoft JhengHei;
+        border: solid 1px #ffffff;
+    }
+}
+@media (min-width:1024px)
+{
+    .main_des{
+    position: absolute;
+    left:100px;
+    top: 100px;
+    }
+    .main_line_1{
+        font-size: 72px;
+        font-family: Microsoft JhengHei;
+    }
+    .main_line_2{
+        font-size: 20px;
+        font-family: Microsoft JhengHei;
+    }
+    .main_line_3{
+        font-size: 35px;
+        font-family: Microsoft JhengHei;
+        border: solid 1px #ffffff;
+    }
+}@media (min-width:1440px)
+{
+    .main_des{
+    position: absolute;
+    left:550px;
+    top: 0px;
+    }
+    .main_line_1{
+        font-size: 72px;
+        font-family: Microsoft JhengHei;
+    }
+    .main_line_2{
+        font-size: 20px;
+        font-family: Microsoft JhengHei;
+    }
+    .main_line_3{
+        font-size: 35px;
+        font-family: Microsoft JhengHei;
+        border: solid 1px #ffffff;
+    }
+}
+@media (min-width:1500px)
+{
+    .main_des{
+    position: absolute;
+    left:700px;
+    top: 0px;
+    }
+    .main_line_1{
+        font-size: 72px;
+        font-family: Microsoft JhengHei;
+    }
+    .main_line_2{
+        font-size: 20px;
+        font-family: Microsoft JhengHei;
+    }
+    .main_line_3{
+        font-size: 35px;
+        font-family: Microsoft JhengHei;
+        border: solid 1px #ffffff;
+    }
+}

@@ -1,0 +1,169 @@
+body {
+    max-width: 1903px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+}
+.top_nav{
+    display: flex;
+    width: 1903px;
+    height:86px;
+    background-color:white;
+    justify-content: start;
+    align-items: center;
+}
+.processor{
+    margin-right: 50px;
+    font-family: Microsoft JhengHei;
+    font-size: 25px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: #000000;
+}
+.amd_logo{
+    width: 135px;
+    height:40px;
+    margin-right: 100px;
+    margin-left: 200px;
+}
+.container {
+    width: 1903px;
+	margin-left: auto;
+    margin-right: auto;
+}
+.main{
+    background-image:url("./img/technology-computer-lines-board-50711.png");
+    width:1903px;
+    height:760px;
+    display: flex;
+    margin-bottom: 30px;
+}
+.main_pic{
+    width:632px;
+    height:613px;
+    justify-content:center;
+    margin-right: 200px;
+}
+.main_1{
+    margin-top: 150px;
+}
+.main_des{
+    justify-items: center;
+    text-align: left;
+    align-content: center;
+    line-height: 100px;
+    padding-top: 200px;
+    color: white;
+ }
+html{
+    overflow-x: hidden;
+    background-color: black;
+}
+.main_line_1{
+    font-size: 72px;
+    font-family: Microsoft JhengHei;
+}
+.main_line_2{
+    font-size: 20px;
+    font-family: Microsoft JhengHei;
+}
+.main_line_3{
+    font-size: 35px;
+    font-family: Microsoft JhengHei;
+    border: solid 1px #ffffff;
+}
+.no1{
+    font-size: 72px;
+    font-family: Microsoft JhengHei;
+}
+.no2{
+    font-size: 20px;
+    font-family: Microsoft JhengHei;
+}
+.no3{
+    font-size: 35px;
+    font-family: Microsoft JhengHei;
+    border: solid 1px #ffffff;
+}
+.rhs{
+    display: flex;
+    flex-direction: row;
+}
+.bd1{
+    width: 100%;
+    height:760px;
+    top: 40px;
+}
+.background1{
+    background-image: url(img/technology-computer-lines-board-50711.png);
+    width: 1920px;
+    height: 600px;
+}
+.ryzen{
+    min-width: 613px;
+}
+.bd2{
+    width:504px;
+    height:75px;
+    font-size: 20px;
+    color: white;
+    position: relative;
+    left: 45%;
+    font-family: Microsoft JhengHei;
+}
+.suj{
+    position: relative;
+    left: 5%;
+    color: white;
+    font-size: larger;
+}
+
+footer{
+    width:1903px;
+    height:225px;
+    background-color: #000000;
+    padding-top: 53px;
+}
+
+.contact{
+    display: flex;
+    margin-left: 240px;
+    justify-content: start;
+    padding-left: 10px;
+}
+.btn{
+    margin-right: 30px;
+}
+
+.corp{
+    display: flex;
+    margin-top: 26px;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+.corp_des{
+    font-size: 24px;
+    color: white;
+    font-family: Microsoft JhengHei;
+}
+
+.corp_btn{
+    width: 32px;
+    height: 32px;
+}
+
+.line {
+    background-color: white;
+    width: 1521px;
+    height: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 17px;
+    margin-top: 17px;
+}
