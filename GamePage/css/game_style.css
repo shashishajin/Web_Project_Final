@@ -1,0 +1,69 @@
+body
+{
+    padding-top: 50px;
+    background-color: #480303 !important;
+}
+.banner {
+	margin-top: 76px;
+}
+.banner .container-fluid {
+	padding:0!important;
+}
+.banner {
+	margin-top: 76px;
+}
+.banner .container-fluid {
+	padding:0!important;
+}
+.navbar-brand img {
+	height: 50px;
+}
+.section1
+{
+    background-color: #000000;
+}
+.section1 img
+{
+    margin  :5%;
+    width: 100%;
+}
+.section2
+{
+    background-color: #2e0e0e;
+}
+.section2 img
+{
+    justify-content: center;
+    width: 100%;
+}
+.section2 h4
+{
+    color: #fff;
+}
+.section2 p
+{
+    color: #fff;
+}
+.section3 h1
+{
+    color:#fff;
+}
+.gametrailer
+{
+    width:600px;
+    height:600px;
+    justify-content: center;
+}
+footer {
+	background-color: #000000;
+	padding:20px;
+}
+
+footer p {
+	font-size: 25px;
+	padding: 25px;
+	color: white !important;
+}
+.footer img{
+	padding :10px;
+}
