@@ -204,3 +204,24 @@ html{
         border: solid 1px #ffffff;
     }
 }
+@media (min-width:2560px)
+{
+    .main_des{
+    position: absolute;
+    left:1000px;
+    top: 0px;
+    }
+    .main_line_1{
+        font-size: 72px;
+        font-family: Microsoft JhengHei;
+    }
+    .main_line_2{
+        font-size: 20px;
+        font-family: Microsoft JhengHei;
+    }
+    .main_line_3{
+        font-size: 35px;
+        font-family: Microsoft JhengHei;
+        border: solid 1px #ffffff;
+    }
+}
