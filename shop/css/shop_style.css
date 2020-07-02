@@ -5,3 +5,18 @@
 .table tbody tr td{
 	vertical-align: middle;
 }
+
+footer {
+	background-color: #000000;
+	padding:20px;
+}
+
+footer p {
+	font-size: 25px;
+	padding: 25px;
+	color: white !important;
+}
+.footer img{
+	
+	padding :10px;
+}
